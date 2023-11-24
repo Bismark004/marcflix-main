@@ -1,0 +1,32 @@
+.trending{
+    margin-top: 25vh;
+
+}
+
+.head {
+    display: flex;
+    width: 100vw;
+    height: 60px;
+    border: 1px solid red;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head div :hover {
+    cursor: pointer;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 16px; 
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.grid-container div {
+    background-color: blue;
+    color: white;
+    height: 200px;
+}
+
