@@ -1,11 +1,12 @@
 .trending{
     margin-top: 25vh;
+    width: calc(100vw - 16px);
 
 }
 
 .head {
     display: flex;
-    width: 100vw;
+    width: calc(100vw - 16px);
     height: 60px;
     border: 1px solid red;
     justify-content: space-between;
@@ -18,15 +19,24 @@
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(4, 180px); 
     gap: 16px; 
-    padding-left: 4vw;
-    padding-right: 4vw;
+    width: 100%;
+    border: 5px solid yellow;
+    
+    
 }
 
 .grid-container div {
-    background-color: blue;
-    color: white;
-    height: 200px;
+    width: 20px;
+    height: 320px;
+    
+}
+
+.movie-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
